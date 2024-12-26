@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import BgAnimation from "../components/BgAnimation";
 
 function AddForm() {
   const [name, setName] = useState("");
@@ -33,6 +34,7 @@ function AddForm() {
 
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center bg-black">
+      <BgAnimation />
       <div className="z-10 text-center mb-8">
         <h1 className="text-4xl font-bold text-white">Welcome to Our Platform!</h1>
         <p className="text-lg text-gray-300 mt-2">
